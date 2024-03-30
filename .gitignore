@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/www/node_modules/
+/www/.pnp
+/www/.pnp.js
+/www/.yarn/install-state.gz
+
+# testing
+/www/coverage/
+
+# next.js
+/www/.next/
+/www/out/
+
+# production
+/www/build/
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+/www/.env*.local
+
+# vercel
+/www/.vercel/
+
+# typescript
+*.tsbuildinfo
+/www/next-env.d.ts
+
+# Python - FastAPI
+/apis/__pycache__/
+/apis/*.py[cod]
+/apis/*.env
+/apis/venv/
+/apis/*.db
+
+# Others
+*.swp
+*.swo
